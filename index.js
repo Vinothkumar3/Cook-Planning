@@ -28,7 +28,7 @@ let par=document.createElement("p")
              
             if(toString(item.foodMenu)==toString(removes.innerText)){
             fetchFoods.splice(fetchFoods.indexOf(item),1) //delete value from local storage
-            //  console.log(fetchFoods.indexOf(item) ,removes.closest("ul").children);
+            
             if(removes.closest("ul").children.length==2)//delete li html
              {
              
