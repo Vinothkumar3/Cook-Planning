@@ -24,12 +24,12 @@ let par=document.createElement("p")
            icon.addEventListener("click",(event)=>{
             let fetchFoods=[...JSON.parse(localStorage.getItem("foodMenus"))]//array inside object values
              fetchFoods.forEach(item=>{
-            let rem=event.target.closest("li")  //click event closet element   
+            let removes=event.target.closest("li")  //click event closet element   
              
-            if(item.foodMenu===rem.innerText){
+            if(item.foodMenu===removes.innerText){
             fetchFoods.splice(fetchFoods.indexOf(item),1) //delete value from local storage
     
-            if(rem.closest("ul").children.length==1)//delete li html
+            if(removes.closest("ul").children.length==1)//delete li html
              {
 
                setTimeout(() => 
@@ -99,7 +99,7 @@ let par=document.createElement("p")
               {  
                 
               fetchFoods.splice(fetchFoods.indexOf(item),1)
-              if(removes.closest("ul").children.length==1)
+              if(removes.closest("ul").children.length==2)
               {
                 setTimeout(() => 
                 {
