@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Cook Plan</title>
+    <link rel="icon" href="./food.png" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+  <header> 
+  🍍 FoodCook  Planning 🍇
+  <p> <a href="index.html" > Home&nbsp;🏠 </a></p>
+  </header>
+  <main id="main">
+
+
+   <fieldset>
+    <legend>feedBacks </legend>
+    <form action="" name="form" id="form">
+<div id="fullname">
+    <label> your fullname:</label>
+    <input type="text"  placeholder="u r fullname..." name="input" id="fullname" required>
+</div>
+<div id="radios">
+    <label for="" style="display: block;" >feed type:</label>
+    <input type="radio" name="type" id="general-feed" value="general-feed" required >
+    <label for="general-feed" style="display: inline-block; font-weight: 500; font-family:'Roboto Slab',serif;">general-feed</label>
+    <input type="radio" name="type" id="technical-feed" value="technical-feed">
+    <label for="technical-feed" style="display: inline-block; font-weight: 500;font-family:'Roboto Slab',serif;">technical-feed</label>
+    <input type="radio" name="type" id= "support-feed" value="support-feed">
+    <label for="support-feed" style="display: inline-block; font-weight: 500;font-family:'Roboto Slab',serif;">support-feed</label>
+</div>
+<div>
+    <label for="email" >your email:</label> <input type="email" name="email" id="email" 
+    placeholder="examp@gmail.com" required>
+</div>
+<div>
+    <label for="country">select your country</label>
+    <select name="country" id="">
+        <option value="option">---select your country---</option>
+        <option value="IND">India</option>
+        <option value="SL">Sri Lanka</option>
+        <option value="MAY">Malaysia</option>
+        <option value="SIG">singapore</option>
+    </select>
+</div>
+<div>
+    <label for="textarea">enter your feedback:</label>
+<textarea id="textarea" name="textarea" cols="30" rows="3" 
+placeholder="enter  u feed back" required> 
+</textarea>
+</div>  
+
+<div name="checks">  
+    <input type="checkbox" id="check" name="check" value="true" required>
+    <label for="check"style="display: inline-block; font-weight:800; color:#2e2828">
+        accept terms condition</label>
+</div>
+<div>
+    <button name="submit" class="submit">submit</button>
+
+</form>
+</fieldset> 
+ 
+
+ 
+</main>
+
+
+<script src="./feed.js" type="module" ></script>
+</body>
+</html>

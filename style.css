@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@800&family=Roboto+Slab:wght@500&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;  
+}
+
+ body{
+    
+    background-image: url("./bg-img.jpg") ; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+        
+  
+ }
+
+
+header{
+    background-color:#5a372d;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight:700;
+    font-size: 2.7rem;
+    color: aliceblue;
+    padding-top: 1rem;
+    position:static
+      
+}
+
+
+header p, header p a{
+    text-align:right;
+    font-family: "Roboto Slab",serif;
+    font-weight:700;
+    font-size: 1rem;
+    color: rgb(223, 234, 243);
+    text-decoration: none;
+    padding: 0rem 0.4rem;
+    position: relative;
+}
+
+header p a:hover{
+   text-decoration:0.2rem underline;      
+}
+
+main{
+margin:2rem auto ;
+width:max-content;
+text-align: justify;
+width:fit-content;
+
+}
+
+.searchContainer{
+    background-color: #ffff;
+    display:flex;
+    gap:0.4rem;
+    box-sizing:content-box;
+    border-radius: 0.5rem;
+    box-shadow:0.1rem 0.2rem 0.1rem rgb(235, 198, 203);
+    padding:2rem 1rem;   
+   
+  
+}
+
+.searchContainer .foodSearch{
+ padding:0.5rem 0.2rem ; 
+ outline:none; 
+ width:22.5rem;
+ border:0.1rem solid #d3f3d7;
+ background-color:#eef5fa;
+ box-sizing:content-box;
+ border-radius:0.5rem;
+ font-family:"Roboto Slab",cursive;
+ font-weight:900;
+
+}
+
+.searchContainer  .save{
+    padding:0.2rem 0.6rem;
+    border-radius:0.6rem;
+    box-sizing:content-box;
+    border:none;
+    width: 3rem;
+    background-color:#474350;
+    color:#ffff;
+    font-size:1rem ;
+    font-family:"poppins",sans-serif;
+    font-weight: 900;
+   
+}
+
+.foodContainer{
+    background-color:rgb(252, 242, 242);
+    margin-top:1rem;
+    list-style:none;
+    padding:0.6rem 0.8rem;
+    border-radius:0.4rem;
+    box-shadow:0.2rem 0.2rem 0.2rem rgb(235, 198, 203);
+}
+
+.foodContainer  .chief{
+    
+    max-height: 20rem;
+    margin: 0rem 0rem;
+    width: 30rem;
+  
+    
+}
+
+.foodContainer .countItem{
+    text-align:left;
+    font-size:0.9rem;
+    padding:0.9rem 0.2rem;
+    font-family:'poppins', sans-serif;
+   font-weight:800;
+   color: #8b59f8;
+}
+
+ .foodItem{
+   margin-bottom: 0.3rem;
+   text-align:left;
+   font-size:1rem;
+   padding:0.2rem 0.4rem;
+   border:0.1rem solid rgb(207, 248, 246);
+   border-radius:0.4rem;
+   display: flex; 
+   justify-content: space-between;
+   box-sizing:content-box;
+   color:#353c41;
+   font-family:"Lobster",cursive;
+   font-weight:600;
+   background-color: #cdbdf3;
+
+}
+
+.foodItem i{
+    color: #fa4242;
+    font-size:1.3rem;
+   box-sizing:content-box;
+   cursor:pointer;
+}
+
+.foodContainer .foodItem:hover{
+    background-color:#c4c5c4; 
+    color: #2e1f1f;
+    font-size:1.1rem;
+    font-weight:900;
+    cursor:zoom-in;
+}
+
+.alertDiv{
+    background-color: #5a6452;
+    padding:0.4rem 0.1rem;
+    margin:0.4rem 0rem;
+    outline:none;
+    color: #ffff;
+    text-align:left;
+    border-left:0.2rem solid rgb(243, 45, 30);
+    border-radius:0rem 0.2rem 0.2rem 0rem;
+    font-size:0.9rem;
+    font-weight:600;
+    font-family: "Roboto Slab",serif;
+    
+}
+
+table{
+    margin: 0.3rem;
+    border-collapse: collapse;
+    text-align: center;
+    width: 24rem;
+    background-color: #837878;
+    
+    
+} table th,td{
+   border:0.3rem solid rgb(78, 75, 75) ; 
+   padding: 0.5rem 0.4rem;
+}
+table th{
+    background-color: #47b458;
+    color: #2e2828;   
+    font-family:'Roboto Slab',serif;
+    font-weight: 800;
+    
+
+}
+table tr td {
+   color: black;
+    text-decoration:none;
+    cursor:default;
+    font-family:'Lobster',serif;          
+    cursor: pointer;
+ }
+
+table tr:hover {
+    background-color: #f0f3f5;
+  
+}
+
+table tr td a{
+    color: black;
+     text-decoration:none;
+     cursor:pointer; 
+ }
+
+table tr.active{
+    background-color: #fa4242;
+}
+ 
+
+fieldset{
+    padding: 0rem 1rem 1rem 1rem;
+    background-color: #fdf0f0;
+    box-sizing:content-box;
+   border:0.2rem solid #dbf5df;
+    border-radius: 0.5rem;
+    box-shadow:0.2rem 0.2rem 0.2rem rgb(235, 198, 203);
+}
+
+fieldset legend{
+    text-align: center;
+    font-family: "Roboto Slab",serif;
+    color:#ff0c0c;
+    font-weight:500;
+    background-color: #fdf0f0;
+    border-radius: 0.7rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.5rem;
+}
+
+fieldset div{
+    font-family: "poppins", sans-serif;
+    padding-top:0.9rem;
+    font-weight: 500;
+ }
+
+ fieldset div label{
+    padding: 0rem 0.2rem; 
+    font-family:"Roboto Slab",serif;
+    font-weight: 800;
+    display: block;
+ }
+
+ fieldset div input,textarea,select,option{
+    outline: none;
+    font-family: "Roboto Slab",serif;
+    font-weight: 400;
+    color: #3c07b6;
+    padding: 0.2rem;
+    border-radius:0.4rem ;
+    border: 0.2rem solid rgb(161, 158, 158); 
+ }
+
+ 
+
+ fieldset div button{
+    text-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: "Roboto Slab",serif;
+    font-weight: 700;
+    background-color: #7c7171;
+    padding: 0.4rem 12rem;
+    border-radius:0.4rem ;
+    border: 0.2rem solid rgb(161, 158, 158);
+ }
+   
