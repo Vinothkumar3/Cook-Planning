@@ -26,11 +26,12 @@ let par=document.createElement("p")
              fetchFoods.forEach(item=>{
             let removes=event.target.closest("li")  //click event closet element   
              
-            if(item.foodMenu===removes.innerText){
+            if(toString(item.foodMenu)==toString(removes.innerText)){
             fetchFoods.splice(fetchFoods.indexOf(item),1) //delete value from local storage
-    
-            if(removes.closest("ul").children.length==1)//delete li html
+            //  console.log(fetchFoods.indexOf(item) ,removes.closest("ul").children);
+            if(removes.closest("ul").children.length==2)//delete li html
              {
+             
 
                setTimeout(() => 
                 {
