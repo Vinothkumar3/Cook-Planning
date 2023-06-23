@@ -99,7 +99,7 @@ let par=document.createElement("p")
               {  
                 
               fetchFoods.splice(fetchFoods.indexOf(item),1)
-              if(removes.closest("ul").children.length==2)
+              if(removes.closest("ul").children.length==1)
               {
                 setTimeout(() => 
                 {
