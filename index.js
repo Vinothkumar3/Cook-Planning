@@ -29,7 +29,7 @@ let par=document.createElement("p")
             if(item.foodMenu===rem.innerText){
             fetchFoods.splice(fetchFoods.indexOf(item),1) //delete value from local storage
     
-            if(rem.closest("ul").children.length==2)//delete li html
+            if(rem.closest("ul").children.length==1)//delete li html
              {
 
                setTimeout(() => 
