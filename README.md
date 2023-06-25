@@ -2,4 +2,5 @@
 simple and effective food cook management app.   
 this project similer to TODO List and build html, css and dom manipulation
 it is initial or test my dom knowledge.
-![download](https://github.com/Vinothkumar3/Cook-Planning/assets/63175218/e39614c9-50ec-4151-9720-d09a28ad8a60)
+
+![download](https://github.com/Vinothkumar3/Cook-Planning/assets/63175218/f2f5fbce-7cc1-4871-8fac-fa727dfab7d3)
