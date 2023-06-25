@@ -217,7 +217,7 @@ fieldset{
     box-sizing:content-box;
    border:0.2rem solid #dbf5df;
     border-radius: 0.5rem;
-    box-shadow:0.2rem 0.2rem 0.2rem rgb(235, 198, 203);
+    box-shadow:0.2rem 0.2rem 0.2rem 0.2rem rgb(235, 198, 203);
 }
 
 fieldset legend{
